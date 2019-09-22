@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Trevin Haseltine</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="trevin.css">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<div class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
+    <ul class="navbar-nav">
+            <li class="nav-item">
+                    <a class="nav-link" href="myportfolio.html">Home</a>
+            </li>
+       <li class="nav-item">
+         <a class="nav-link" href="PortfolioAbout.html">About</a>
+       </li>   
+       <li class="nav-item">
+         <a class="nav-link" href="PortfolioContact.html">Contact</a>
+       </li>
+    </ul>
+</div>
+
+<!-- Card on Welcome Page -->
+<div class="container">
+        <div class="card">
+          <div class="card-body1">
+            <h1 class="headers">I'm Trevin.</h1>
+            <p>A Student of UI/UX Development.</p>
+            <img class="headphoto" src="https://d1qb2nb5cznatu.cloudfront.net/users/652081-large?1564707137">
+            <hr class="hrmain">
+            <p class="dotsmain">. . . . .</p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                            <strong><strong>Design what you want.</strong></strong> I like to keep it simple. My goals are to focus on typography, content and conveying the message that you want to send. If you come up with the concept, I will exceed your expectations.<br><br><br>
+                            <button type="button" class="btn btn-primary" onclick= "gitHub()">See More</button>
+                    </div>
+                    <div class="col-sm">
+                            <strong><strong>Share your vision.</strong></strong> My work style encourages creative collaboration from every angle. I genuinely enjoy the opportunity to work with everyone from individuals to much larger development teams.<br><br><br><br>
+                    </div>
+                    <div class="col-sm">
+                            <strong><strong>Want to chat about your project?</strong></strong> Click the Get Started button below to start the conversation. In my view, the best part about this process is meeting people with innovative, unique ideas. Feel free to contact me at anytime!<br><br><br>
+                            <button type="button" class="btn btn-primary" onclick="relocateContact()">Get Started</button>
+                    </div>
+                    </div>
+                  </div>
+            </div>
+          </div>
+        </div>
+
+<!-- Footer -->
+<div class="jumbotron text-center" style="margin-bottom:0">
+        <p class="footerText">Trevin Haseltine ©</p><br>
+      </div>
+      
+    <script>
+            function relocateContact()
+            {
+                 location.href = "PortfolioContact.html";
+            } 
+
+            function gitHub()
+                {
+                     location.href = "https://github.com/TrevinJH36";
+                } 
+    </script>
+
+</body>
+</html>

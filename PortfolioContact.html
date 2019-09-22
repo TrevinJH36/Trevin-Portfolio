@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Trevin Haseltine</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="trevin.css">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<div class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
+    <ul class="navbar-nav">
+            <li class="nav-item">
+                    <a class="nav-link" href="myportfolio.html">Home</a>
+            </li>
+       <li class="nav-item">
+         <a class="nav-link" href="PortfolioAbout.html">About</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="PortfolioContact.html">Contact</a>
+       </li>
+    </ul>
+</div>
+
+<!-- Card on Welcome Page -->
+<div class="container">
+        <div class="card" style="height: 740px; border: none;">
+          <div class="card-body1">
+        <img class="headphotosecondary" src="https://d1qb2nb5cznatu.cloudfront.net/users/652081-large?1564707137">
+            <form action="/action_page.php text-center">
+                <div class="form-group text-center">
+                  <input type="email" class="form-control text-center" id="email" placeholder="email address">
+                </div>
+                <div class="form-group">
+                  <input type="input" style="height: 250px;" class="form-control text-center" id="input"  placeholder="Message">
+                </div>
+                <button type="button" id="buttonContact" class="btn btn-primary btn2" onclick="submitButton()">Submit</button><br><br>
+              </form>
+            </div>
+          </div>
+        </div>
+
+<!-- Footer -->
+<div class="jumbotron text-center" style="margin-bottom:0">
+        <p class="footerText">Trevin Haseltine ©</p><br>
+      </div>
+
+      <script>
+            function submitButton()
+            {
+                 window.alert("Thank you! Your request has been submitted");
+            } 
+    </script>
+
+</body>
+</html>
