@@ -1,0 +1,170 @@
+
+
+
+.card{
+  margin-top: 90px;
+  margin-bottom: 100px;
+  width: auto;  
+}
+.card-body1{
+  text-align: center;
+  height: auto;
+  border-color:whitesmoke;
+  text-align: center;
+  width: auto;
+}
+.headers{
+  margin-top: 50px;
+  margin-bottom: 5px;
+  font-size: 65;
+}
+.col-sm{
+  height:50px;
+  font-weight: lighter;
+}
+.headphoto{
+  width: 225px;
+  height: 225px;
+  margin-top: 40px;
+  border-radius:50%;
+  color: rgb(152, 219, 150);
+  border:solid;
+  outline: none;
+  border-width: 4px;
+}
+.card-body{
+  height:200px;
+  width: 350px;
+  margin-left: 75px;
+  margin-top: 40px;
+}
+.card-title{
+  height: 150px;
+}
+#col-sm1{
+
+  font-size: 22px;
+  height: auto;
+  width: 200px;
+  font-weight: lighter;
+  text-align: center;
+  margin:auto;
+  border: none;
+  border-color:  rgb(152, 219, 150);
+  border-radius: 15px;
+  margin-top: 35px;
+  margin-bottom: 95px;
+  
+}
+#col-sm2{
+  font-size: 22px;
+  height: auto;
+  width: 200px;
+  font-weight: lighter;
+  margin: auto;
+  border: none;
+  border-color:  rgb(152, 219, 150);
+  border-radius: 15px;
+  margin-top: 35px;
+  margin-bottom: 55px;
+}
+#col-sm3{
+  font-size: 22px;
+  width: 200px;
+  height: auto;
+  font-weight: lighter;
+  margin: auto;
+  border: none;
+  border-color:  rgb(152, 219, 150);
+  border-radius: 15px;
+  margin-top: 35px;
+  margin-bottom: 95px;
+}
+.footerText{
+  margin-top: 5px;
+  margin-left:5px;
+  color: rgb(152, 219, 150);
+}
+.jumbotron {
+  height:150px;
+}
+.headphotosecondary{
+  width: 100px;
+  height: 100px;
+  margin-top: 40px;
+  border-radius:50%;
+  border:solid;
+  outline: none;
+  border-width: 4px;
+  color: rgb(152, 219, 150);
+}
+.col-sm1{
+  height:auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-size: 24px;
+  font-weight: lighter;
+  font-stretch: expanded;
+  width: 100%;
+  text-align: center;
+}
+.form-control{
+height: 100px;
+}
+.form-group{
+margin-top: 75px;
+}
+.btn2{
+  margin-top:30px;
+  margin-bottom: 150px;
+}
+.navbar{
+  box-shadow: 3px 6px 6px rgb(197, 195, 195);
+  position: fixed;
+}
+.hrmain{
+  width: 30%;
+  margin-top: 50px;
+  text-align: center;
+}
+.dotsmain{
+  margin-top: 4px;
+  text-align: center;
+  color: rgb(152, 219, 150);
+  font-size: 31px;
+}
+.btn{
+  background-color: rgb(152, 219, 150);
+  border:none;
+  width: 130px;
+  padding: 12px;
+}
+.btn:hover{
+  background-color: rgb(134, 194, 132);
+}
+.jumbotron{
+  background-color: whitesmoke;
+}
+#buttonContact{
+  width: 24%;
+  margin-top: 70px;
+  padding: 15px;
+  background-color:rgb(152, 219, 150);
+  border:none;
+}
+#buttonContact:hover{
+  background-color: rgb(134, 194, 132);
+}
+#nameBox {
+  width: 400px;
+  outline: none;
+}
+#emailBox{
+  width: 400px;
+  outline: none;
+}
+#commentBox{
+  width: 500px;
+  height: 130px;
+  outline: none;
+}
